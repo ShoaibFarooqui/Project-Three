@@ -5,7 +5,7 @@ Data visualization demonstration, using aviation accidents updated to 2023. Data
 https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses
 
 ## Data and Delivery
-Database is housed in a PostgreSQL Database.
+Database is housed in a noSQL Database.
 Flask API is employed to visualize dataset HTML/CSS, JavaScript.
 
 ## Back End
