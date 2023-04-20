@@ -14,19 +14,21 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 let crash_sites = d3.json('static/data/CleanAviationData.json').then(function(data) {
     console.log(data);
-
+    let markers = L.markerClusterGroup();
     for (i=0;i<data.length;i++) {
+        
+
         let coords = [data[i].Latitude, data[i].Longitude];
-        // console.log(coords);
-        L.marker(coords).addTo(myMap);
+
+        if (coords) {
+            markers.addLayer(L.marker(coords)).bindPopup(data[i].Event.Date);
+        }
+        
+
     }
     
-})
+    myMap.addLayer(markers);
+});
 
 
-
-
-
-L.marker([33.17, -96.828]).addTo(myMap);
-L.marker([49.435,-2.600278]).addTo(myMap);
 
