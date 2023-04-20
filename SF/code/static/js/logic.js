@@ -21,7 +21,8 @@ let crash_sites = d3.json('static/data/CleanAviationData.json').then(function(da
         let coords = [data[i].Latitude, data[i].Longitude];
 
         if (coords) {
-            markers.addLayer(L.marker(coords)).bindPopup(data[i].Event.Date);
+            markers.addLayer(L.marker(coords)).bindPopup(
+                `<h1>Date of Event: ${data[i].Event.Date}</h1>`);
         }
         
 
