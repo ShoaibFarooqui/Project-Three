@@ -1,4 +1,4 @@
-Air_Carrier,Event_Date,Country,Location,Airport_Name,Latitude,Longitude,Weather_Condition,Total_Fatal_Injuries,Total_Serious_Injuries,Total_Minor_Injuries,Total_Uninjured,City,State,Countries,Country_Fatalities,Country_Uninjured,State,Total_Fatal_Injuries,Total_Uninjured
+Air_Carrier,Event_Date,Country,Location,Airport_Name,Latitude,Longitude,Weather_Condition,Total_Fatal_Injuries,Total_Serious_Injuries,Total_Minor_Injuries,Total_Uninjured,City,State,Countries,Country_Fatalities,Country_Uninjured,US_States,State_Fatal,State_Uninjured
 Costa Spraying Inc,1/1/2010,United States,"Tipton, CA",Visalia Municipal Airport,003648N,1191540W,VMC,0,1,0,0,Tipton, CA,Afghanistan,7,84, AK,48,650
 FRATTONE CLIFFORD T,1/1/2010,United States,"Doylestown, PA",Doylestown Airport,401959N,0075720W,VMC,0,0,0,2,Doylestown, PA,Antarctica,0,181, AL,23,75
 Ram Air Freight Inc.,1/1/2010,United States,"Concord, NC",Concord Regional,352330N,0804230W,IMC,0,0,0,1,Concord, NC,Antigua and Barbuda,4,0, AR,12,90
