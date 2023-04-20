@@ -1,4 +1,4 @@
-Air_Carrier,Event_Date,Country,Location,Airport_Name,Latitude,Longitude,Weather_Condition,Total_Fatal_Injuries,Total_Serious_Injuries,Total_Minor_Injuries,Total_Uninjured,City,State,Countries,Country_Fatalities,Country_Uninjured,US_States,States_Fatal,States_Uninjured
+Air_Carrier,Event_Date,Country,Location,Airport_Name,Latitude,Longitude,Weather_Condition,Total_Fatal_Injuries,Total_Serious_Injuries,Total_Minor_Injuries,Total_Uninjured,City,State,Countries,Country_Fatalities,Country_Uninjured,State,Total_Fatal_Injuries,Total_Uninjured
 Costa Spraying Inc,1/1/2010,United States,"Tipton, CA",Visalia Municipal Airport,003648N,1191540W,VMC,0,1,0,0,Tipton, CA,Afghanistan,7,84, AK,48,650
 FRATTONE CLIFFORD T,1/1/2010,United States,"Doylestown, PA",Doylestown Airport,401959N,0075720W,VMC,0,0,0,2,Doylestown, PA,Antarctica,0,181, AL,23,75
 Ram Air Freight Inc.,1/1/2010,United States,"Concord, NC",Concord Regional,352330N,0804230W,IMC,0,0,0,1,Concord, NC,Antigua and Barbuda,4,0, AR,12,90
@@ -38,17 +38,17 @@ WENCK KENT W,1/21/2010,United States,"Cherokee, IA",Cherokee County Regional,424
 ALPER GERT,1/21/2010,United States,"Great Barrington, MA",Walter J Kolazda Airport,042113N,0732416W,VMC,0,0,0,1,Great Barrington, MA,United Kingdom,0,0, PA,19,1204
 "Alaska Central Express, Inc.",1/22/2010,United States,"Sand Point, AK",Sand Point,551958N,1603228W,VMC,2,0,0,0,Sand Point, AK,United States,1107,33168, PR,7,36
 TWOHY TIMOTHY D,1/23/2010,United States,"Nightmute, AK",Nightmute Airport,602815N,0164423W,VMC,0,0,0,1,Nightmute, AK,Venezuela,2,10, RI,0,7
-Gary L. Bradford,1/24/2010,United States,"Sugar Grove, IL",Aurora Municipal Airport,041486N,0882742W,IMC,2,0,0,0,Sugar Grove, IL,,,,,,
-Ethiopian Airlines,1/25/2010,Lebanon,"Beirut, Lebanon",Rafic Hariri International,394916N,0352918E,IMC,90,0,0,0,Beirut, Lebanon,,,,,,
-BGE ENTERPRISES LLC,1/26/2010,United States,"Russellville, AR",Russellville Regional Airport,351532N,0093535W,VMC,0,0,0,1,Russellville, AR,,,,,,
-Nelson Woodward,1/26/2010,United States,"Taunton, MA",Taunton Municipal Airport,415228N,0007110W,VMC,0,0,0,1,Taunton, MA,,,,,,
-Donald H. Sefton,1/27/2010,United States,"Fallon, NV",Fallon Municipal Airport,392956N,1184455W,VMC,0,0,0,2,Fallon, NV,,,,,,
-Transpac Aviation Academy,1/28/2010,United States,"Phoenix, AZ",Phoenix Deer Valley Airport,334125N,0112657W,IMC,1,0,0,0,Phoenix, AZ,,,,,,
-Pleasant Valley Aviation,1/30/2010,United States,"Pullman, WA",Pullman-Moscow Regional,464426N,0117612W,VMC,0,0,0,1,Pullman, WA,,,,,,
-Chapter 163 Flying Club,1/30/2010,United States,"Pahrump, NV",North Las Vegas Airport,003640N,1154830W,VMC,0,0,0,2,Pahrump, NV,,,,,,
-Earl R. Griffin,1/30/2010,United States,"Crystal, NV",Crystal,361810N,0116030W,VMC,0,0,0,1,Crystal, NV,,,,,,
-Carl W. Rose,1/30/2010,United States,"Westmoreland, TN",Private Strip,363518N,0086107W,VMC,0,0,0,2,Westmoreland, TN,,,,,,
-Ben Knapp,1/31/2010,United States,"Skwentna, AK",na,613350N,1513328W,VMC,0,1,0,0,Skwentna, AK,,,,,,
+Gary L. Bradford,1/24/2010,United States,"Sugar Grove, IL",Aurora Municipal Airport,041486N,0882742W,IMC,2,0,0,0,Sugar Grove, IL,,,, SC,15,162
+Ethiopian Airlines,1/25/2010,Lebanon,"Beirut, Lebanon",Rafic Hariri International,394916N,0352918E,IMC,90,0,0,0,Beirut, Lebanon,,,, SD,8,157
+BGE ENTERPRISES LLC,1/26/2010,United States,"Russellville, AR",Russellville Regional Airport,351532N,0093535W,VMC,0,0,0,1,Russellville, AR,,,, TN,11,438
+Nelson Woodward,1/26/2010,United States,"Taunton, MA",Taunton Municipal Airport,415228N,0007110W,VMC,0,0,0,1,Taunton, MA,,,, TX,91,2030
+Donald H. Sefton,1/27/2010,United States,"Fallon, NV",Fallon Municipal Airport,392956N,1184455W,VMC,0,0,0,2,Fallon, NV,,,, UT,26,237
+Transpac Aviation Academy,1/28/2010,United States,"Phoenix, AZ",Phoenix Deer Valley Airport,334125N,0112657W,IMC,1,0,0,0,Phoenix, AZ,,,, VA,26,784
+Pleasant Valley Aviation,1/30/2010,United States,"Pullman, WA",Pullman-Moscow Regional,464426N,0117612W,VMC,0,0,0,1,Pullman, WA,,,, VT,1,138
+Chapter 163 Flying Club,1/30/2010,United States,"Pahrump, NV",North Las Vegas Airport,003640N,1154830W,VMC,0,0,0,2,Pahrump, NV,,,, WA,13,510
+Earl R. Griffin,1/30/2010,United States,"Crystal, NV",Crystal,361810N,0116030W,VMC,0,0,0,1,Crystal, NV,,,, WI,13,377
+Carl W. Rose,1/30/2010,United States,"Westmoreland, TN",Private Strip,363518N,0086107W,VMC,0,0,0,2,Westmoreland, TN,,,, WV,4,79
+Ben Knapp,1/31/2010,United States,"Skwentna, AK",na,613350N,1513328W,VMC,0,1,0,0,Skwentna, AK,,,, WY,2,246
 HYANNIS AIR LEASING INC,2/1/2010,United States,"Watertown, NY",Watertown International,435918N,0076111W,VMC,0,0,0,7,Watertown, NY,,,,,,
 ZIA CONSULTING INC,2/1/2010,United States,"Reserve, NM",Reserve Airport,334139N,1085058W,VMC,0,0,0,1,Reserve, NM,,,,,,
 MISSOURI FORGE INC,2/4/2010,United States,"Columbia, MO",Columbia Regional,038495N,0921311W,VMC,0,0,0,2,Columbia, MO,,,,,,
