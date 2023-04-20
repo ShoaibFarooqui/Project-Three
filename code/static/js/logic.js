@@ -12,7 +12,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // data import
 
-d3.json('../data/CleanAviationData.json').then(function(data)    {
+d3.json('static/data/CleanAviationData.json').then(function(data)    {
     console.log(data);
 });
 
