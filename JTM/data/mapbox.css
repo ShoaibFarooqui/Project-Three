@@ -37,3 +37,15 @@
     padding: 0;
     -webkit-font-smoothing: antialiased;
   }
+  
+.marker {
+  border: none;
+  cursor: pointer;
+  height: 56px;
+  width: 56px;
+  background-image: url(marker.png);
+}
+
+.mapboxgl-popup {
+  padding-bottom: 50px;
+}
