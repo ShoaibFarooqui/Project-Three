@@ -1,0 +1,1641 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='aircrashes' inline='true' name='federated.0p5d1ec0q0hqcc150hrqv16elc48' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='aircrashes' name='semistructpassivestore-direct.0k1to9z0wm6yt11akva730sosy9x'>
+            <connection class='semistructpassivestore-direct' directory='C:/Users/Jessica M/Desktop' filename='aircrashes.json' password='' server=''>
+              <semistruct-schemas>
+                <semistruct-schema table='[aircrashes.json+]'>
+                  <map key='_id' value='false' />
+                  <map key='{root}' value='true' />
+                </semistruct-schema>
+                <semistruct-schema table='[aircrashes.json]'>
+                  <map key='_id' value='false' />
+                  <map key='{root}' value='true' />
+                </semistruct-schema>
+              </semistruct-schemas>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='aircrashes.json+' type='union'>
+          <columns>
+            <column datatype='string' name='Table Name' />
+            <column datatype='integer' name='Document Index (generated)' />
+            <column datatype='string' name='Airline' />
+            <column datatype='string' name='IATA destination' />
+            <column datatype='string' name='IATA origination' />
+            <column datatype='string' name='ICAO destination' />
+            <column datatype='string' name='ICAO origination' />
+            <column datatype='string' name='ac type' />
+            <column datatype='string' name='date' />
+            <column datatype='string' name='destination' />
+            <column datatype='string' name='fault' />
+            <column datatype='real' name='flight no' />
+            <column datatype='string' name='ground registration' />
+            <column datatype='real' name='latitude' />
+            <column datatype='string' name='location' />
+            <column datatype='real' name='longitude' />
+            <column datatype='string' name='origination' />
+            <column datatype='real' name='passenger fatalities' />
+            <column datatype='real' name='passengers aboard' />
+            <column datatype='string' name='route' />
+            <column datatype='string' name='route codes' />
+            <column datatype='string' name='time' />
+            <column datatype='real' name='total aboard' />
+            <column datatype='real' name='total fatalities' />
+          </columns>
+          <relation connection='semistructpassivestore-direct.0k1to9z0wm6yt11akva730sosy9x' name='aircrashes.json' table='[aircrashes.json]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='aircrashes.json+' type='union'>
+          <columns>
+            <column datatype='string' name='Table Name' />
+            <column datatype='integer' name='Document Index (generated)' />
+            <column datatype='string' name='Airline' />
+            <column datatype='string' name='IATA destination' />
+            <column datatype='string' name='IATA origination' />
+            <column datatype='string' name='ICAO destination' />
+            <column datatype='string' name='ICAO origination' />
+            <column datatype='string' name='ac type' />
+            <column datatype='string' name='date' />
+            <column datatype='string' name='destination' />
+            <column datatype='string' name='fault' />
+            <column datatype='real' name='flight no' />
+            <column datatype='string' name='ground registration' />
+            <column datatype='real' name='latitude' />
+            <column datatype='string' name='location' />
+            <column datatype='real' name='longitude' />
+            <column datatype='string' name='origination' />
+            <column datatype='real' name='passenger fatalities' />
+            <column datatype='real' name='passengers aboard' />
+            <column datatype='string' name='route' />
+            <column datatype='string' name='route codes' />
+            <column datatype='string' name='time' />
+            <column datatype='real' name='total aboard' />
+            <column datatype='real' name='total fatalities' />
+          </columns>
+          <relation connection='semistructpassivestore-direct.0k1to9z0wm6yt11akva730sosy9x' name='aircrashes.json' table='[aircrashes.json]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Document Index (generated)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Document Index (generated)]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>Document Index (generated)</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Airline</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Airline]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>Airline</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IATA destination</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IATA destination]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>IATA destination</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IATA origination</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IATA origination]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>IATA origination</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ICAO destination</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ICAO destination]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>ICAO destination</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ICAO origination</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ICAO origination]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>ICAO origination</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ac type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ac type]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>ac type</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>date</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>destination</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[destination]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>destination</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fault</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[fault]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>fault</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flight no</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[flight no]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>flight no</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ground registration</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ground registration]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>ground registration</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>location</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origination</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[origination]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>origination</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>passenger fatalities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[passenger fatalities]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>passenger fatalities</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>passengers aboard</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[passengers aboard]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>passengers aboard</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>route</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[route]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>route</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>route codes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[route codes]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>route codes</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[time]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>time</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total aboard</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total aboard]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>total aboard</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total fatalities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total fatalities]</local-name>
+            <parent-name>[aircrashes.json+]</parent-name>
+            <remote-alias>total fatalities</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Airline]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Airline</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Document Index (generated)]' role='dimension' type='ordinal'>
+        <desc>
+          <formatted-text>
+            <run>Document Index (generated)</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[IATA destination]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>IATA destination</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[IATA origination]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>IATA origination</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[ICAO destination]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>ICAO destination</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[ICAO origination]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>ICAO origination</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Table Name]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Table Name</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='aircrashes.json' datatype='table' name='[__tableau_internal_object_id__].[aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5]' role='measure' type='quantitative' />
+      <column caption='Ac Type' datatype='string' name='[ac type]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>ac type</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Date' datatype='string' name='[date]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>date</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Destination' datatype='string' name='[destination]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>destination</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Fault' datatype='string' name='[fault]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>fault</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Flight No' datatype='real' name='[flight no]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>flight no</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Ground Registration' datatype='string' name='[ground registration]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>ground registration</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>latitude</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>location</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>longitude</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Origination' datatype='string' name='[origination]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>origination</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Passenger Fatalities' datatype='real' name='[passenger fatalities]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>passenger fatalities</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Passengers Aboard' datatype='real' name='[passengers aboard]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>passengers aboard</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Route Codes' datatype='string' name='[route codes]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>route codes</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Route' datatype='string' name='[route]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>route</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Time' datatype='string' name='[time]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>time</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Total Aboard' datatype='real' name='[total aboard]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>total aboard</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='Total Fatalities' datatype='real' name='[total fatalities]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>total fatalities</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Aircrashes' role='dimensions'>
+        <folder-item name='[Airline]' type='field' />
+        <folder-item name='[Document Index (generated)]' type='field' />
+        <folder-item name='[IATA destination]' type='field' />
+        <folder-item name='[IATA origination]' type='field' />
+        <folder-item name='[ICAO destination]' type='field' />
+        <folder-item name='[ICAO origination]' type='field' />
+        <folder-item name='[Table Name]' type='field' />
+        <folder-item name='[ac type]' type='field' />
+        <folder-item name='[date]' type='field' />
+        <folder-item name='[destination]' type='field' />
+        <folder-item name='[fault]' type='field' />
+        <folder-item name='[ground registration]' type='field' />
+        <folder-item name='[location]' type='field' />
+        <folder-item name='[origination]' type='field' />
+        <folder-item name='[route codes]' type='field' />
+        <folder-item name='[route]' type='field' />
+        <folder-item name='[time]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='Aircrashes'>
+          <folder-item name='[Airline]' type='field' />
+          <folder-item name='[Document Index (generated)]' type='field' />
+          <folder-item name='[IATA destination]' type='field' />
+          <folder-item name='[IATA origination]' type='field' />
+          <folder-item name='[ICAO destination]' type='field' />
+          <folder-item name='[ICAO origination]' type='field' />
+          <folder-item name='[Table Name]' type='field' />
+          <folder-item name='[ac type]' type='field' />
+          <folder-item name='[date]' type='field' />
+          <folder-item name='[destination]' type='field' />
+          <folder-item name='[fault]' type='field' />
+          <folder-item name='[ground registration]' type='field' />
+          <folder-item name='[location]' type='field' />
+          <folder-item name='[origination]' type='field' />
+          <folder-item name='[route codes]' type='field' />
+          <folder-item name='[route]' type='field' />
+          <folder-item name='[time]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Jessica M/Documents/My Tableau Repository/Datasources/aircrashes.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Document Index (generated)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Document Index (generated)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Document Index (generated)</remote-alias>
+              <ordinal>1</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Airline</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Airline]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Airline</remote-alias>
+              <ordinal>2</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IATA destination</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IATA destination]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IATA destination</remote-alias>
+              <ordinal>3</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IATA origination</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IATA origination]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IATA origination</remote-alias>
+              <ordinal>4</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ICAO destination</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ICAO destination]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ICAO destination</remote-alias>
+              <ordinal>5</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ICAO origination</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ICAO origination]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ICAO origination</remote-alias>
+              <ordinal>6</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ac type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ac type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ac type</remote-alias>
+              <ordinal>7</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date</remote-alias>
+              <ordinal>8</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>destination</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[destination]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>destination</remote-alias>
+              <ordinal>9</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fault</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fault]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fault</remote-alias>
+              <ordinal>10</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>flight no</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[flight no]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>flight no</remote-alias>
+              <ordinal>11</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ground registration</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ground registration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ground registration</remote-alias>
+              <ordinal>12</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>latitude</remote-alias>
+              <ordinal>13</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>location</remote-alias>
+              <ordinal>14</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>longitude</remote-alias>
+              <ordinal>15</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>origination</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[origination]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>origination</remote-alias>
+              <ordinal>16</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>passenger fatalities</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[passenger fatalities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>passenger fatalities</remote-alias>
+              <ordinal>17</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>passengers aboard</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[passengers aboard]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>passengers aboard</remote-alias>
+              <ordinal>18</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>route</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[route]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>route</remote-alias>
+              <ordinal>19</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>route codes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[route codes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>route codes</remote-alias>
+              <ordinal>20</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>time</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>time</remote-alias>
+              <ordinal>21</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total aboard</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total aboard]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total aboard</remote-alias>
+              <ordinal>22</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total fatalities</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total fatalities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total fatalities</remote-alias>
+              <ordinal>23</ordinal>
+              <family>aircrashes.json+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='aircrashes.json' id='aircrashes.json_2F5AB1F80D42417A9768849D7A699CB5'>
+            <properties context=''>
+              <relation all='true' name='aircrashes.json+' type='union'>
+                <columns>
+                  <column datatype='string' name='Table Name' />
+                  <column datatype='integer' name='Document Index (generated)' />
+                  <column datatype='string' name='Airline' />
+                  <column datatype='string' name='IATA destination' />
+                  <column datatype='string' name='IATA origination' />
+                  <column datatype='string' name='ICAO destination' />
+                  <column datatype='string' name='ICAO origination' />
+                  <column datatype='string' name='ac type' />
+                  <column datatype='string' name='date' />
+                  <column datatype='string' name='destination' />
+                  <column datatype='string' name='fault' />
+                  <column datatype='real' name='flight no' />
+                  <column datatype='string' name='ground registration' />
+                  <column datatype='real' name='latitude' />
+                  <column datatype='string' name='location' />
+                  <column datatype='real' name='longitude' />
+                  <column datatype='string' name='origination' />
+                  <column datatype='real' name='passenger fatalities' />
+                  <column datatype='real' name='passengers aboard' />
+                  <column datatype='string' name='route' />
+                  <column datatype='string' name='route codes' />
+                  <column datatype='string' name='time' />
+                  <column datatype='real' name='total aboard' />
+                  <column datatype='real' name='total fatalities' />
+                </columns>
+                <relation connection='semistructpassivestore-direct.0k1to9z0wm6yt11akva730sosy9x' name='aircrashes.json' table='[aircrashes.json]' type='table' />
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='air_incidents (jessica)' inline='true' name='federated.1m7nq4m054ri02137wxk31sgaz7x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='jessica' name='excel-direct.14877p600l9ypm0zry47g0f1o4wb'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Jessica M/Desktop/jessica.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.14877p600l9ypm0zry47g0f1o4wb' name='air_incidents' table='[air_incidents$]' type='table'>
+          <columns gridOrigin='A1:M50:no:A1:M50:0' header='yes' outcome='2'>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='string' name='Airline' ordinal='1' />
+            <column datatype='string' name='flight no' ordinal='2' />
+            <column datatype='string' name='site' ordinal='3' />
+            <column datatype='string' name='origin' ordinal='4' />
+            <column datatype='string' name='origin airport' ordinal='5' />
+            <column datatype='string' name='dest airport' ordinal='6' />
+            <column datatype='string' name='destination' ordinal='7' />
+            <column datatype='string' name='ac type' ordinal='8' />
+            <column datatype='string' name='route codes' ordinal='9' />
+            <column datatype='integer' name='total aboard' ordinal='10' />
+            <column datatype='integer' name='total fatalities' ordinal='11' />
+            <column datatype='string' name='ground registration' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.14877p600l9ypm0zry47g0f1o4wb' name='air_incidents' table='[air_incidents$]' type='table'>
+          <columns gridOrigin='A1:M50:no:A1:M50:0' header='yes' outcome='2'>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='string' name='Airline' ordinal='1' />
+            <column datatype='string' name='flight no' ordinal='2' />
+            <column datatype='string' name='site' ordinal='3' />
+            <column datatype='string' name='origin' ordinal='4' />
+            <column datatype='string' name='origin airport' ordinal='5' />
+            <column datatype='string' name='dest airport' ordinal='6' />
+            <column datatype='string' name='destination' ordinal='7' />
+            <column datatype='string' name='ac type' ordinal='8' />
+            <column datatype='string' name='route codes' ordinal='9' />
+            <column datatype='integer' name='total aboard' ordinal='10' />
+            <column datatype='integer' name='total fatalities' ordinal='11' />
+            <column datatype='string' name='ground registration' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M50:no:A1:M50:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Airline</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Airline]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>Airline</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>flight no</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[flight no]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>flight no</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>site</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[site]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>site</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[origin]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>origin</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>origin airport</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[origin airport]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>origin airport</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dest airport</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[dest airport]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>dest airport</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>destination</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[destination]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>destination</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ac type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ac type]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>ac type</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>route codes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[route codes]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>route codes</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total aboard</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total aboard]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>total aboard</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total fatalities</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total fatalities]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>total fatalities</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ground registration</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ground registration]</local-name>
+            <parent-name>[air_incidents]</parent-name>
+            <remote-alias>ground registration</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='air_incidents' datatype='table' name='[__tableau_internal_object_id__].[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]' role='measure' type='quantitative' />
+      <column caption='Ac Type' datatype='string' name='[ac type]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Dest Airport' datatype='string' name='[dest airport]' role='dimension' type='nominal' />
+      <column caption='Destination' datatype='string' name='[destination]' role='dimension' type='nominal' />
+      <column caption='Flight No' datatype='string' name='[flight no]' role='dimension' type='nominal' />
+      <column caption='Ground Registration' datatype='string' name='[ground registration]' role='dimension' type='nominal' />
+      <column caption='Origin Airport' datatype='string' name='[origin airport]' role='dimension' type='nominal' />
+      <column caption='Origin' datatype='string' name='[origin]' role='dimension' type='nominal' />
+      <column caption='Route Codes' datatype='string' name='[route codes]' role='dimension' type='nominal' />
+      <column caption='Site' datatype='string' name='[site]' role='dimension' type='nominal' />
+      <column caption='Total Aboard' datatype='integer' name='[total aboard]' role='measure' type='quantitative' />
+      <column caption='Total Fatalities' datatype='integer' name='[total fatalities]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Jessica M/Documents/My Tableau Repository/Datasources/air_incidents (jessica).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/20/2023 11:22:05 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='air_incidents (jessica)' increment-value='%null%' refresh-type='create' rows-inserted='49' timestamp-start='2023-04-20 23:22:04.287' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>air_incidents</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Airline</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Airline]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Airline</remote-alias>
+              <ordinal>1</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>flight no</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[flight no]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>flight no</remote-alias>
+              <ordinal>2</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>site</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[site]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>site</remote-alias>
+              <ordinal>3</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>origin</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[origin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>origin</remote-alias>
+              <ordinal>4</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>origin airport</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[origin airport]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>origin airport</remote-alias>
+              <ordinal>5</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dest airport</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dest airport]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dest airport</remote-alias>
+              <ordinal>6</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>destination</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[destination]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>destination</remote-alias>
+              <ordinal>7</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ac type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ac type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ac type</remote-alias>
+              <ordinal>8</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>route codes</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[route codes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>route codes</remote-alias>
+              <ordinal>9</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total aboard</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total aboard]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total aboard</remote-alias>
+              <ordinal>10</ordinal>
+              <family>air_incidents</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>41</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total fatalities</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total fatalities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total fatalities</remote-alias>
+              <ordinal>11</ordinal>
+              <family>air_incidents</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ground registration</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ground registration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ground registration</remote-alias>
+              <ordinal>12</ordinal>
+              <family>air_incidents</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air!incidents_4E5086F34B89436D88F1CBE5B6B550B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;USA&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='air_incidents' id='air!incidents_4E5086F34B89436D88F1CBE5B6B550B6'>
+            <properties context=''>
+              <relation connection='excel-direct.14877p600l9ypm0zry47g0f1o4wb' name='air_incidents' table='[air_incidents$]' type='table'>
+                <columns gridOrigin='A1:M50:no:A1:M50:0' header='yes' outcome='2'>
+                  <column datatype='date' name='date' ordinal='0' />
+                  <column datatype='string' name='Airline' ordinal='1' />
+                  <column datatype='string' name='flight no' ordinal='2' />
+                  <column datatype='string' name='site' ordinal='3' />
+                  <column datatype='string' name='origin' ordinal='4' />
+                  <column datatype='string' name='origin airport' ordinal='5' />
+                  <column datatype='string' name='dest airport' ordinal='6' />
+                  <column datatype='string' name='destination' ordinal='7' />
+                  <column datatype='string' name='ac type' ordinal='8' />
+                  <column datatype='string' name='route codes' ordinal='9' />
+                  <column datatype='integer' name='total aboard' ordinal='10' />
+                  <column datatype='integer' name='total fatalities' ordinal='11' />
+                  <column datatype='string' name='ground registration' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0B5714A5-591F-4684-8BD0-F4201605A1F8}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='satellite' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A4F48817-78DB-4874-A12E-37C82B822931}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{22C12D8E-BE61-449F-9A89-7F8C37113380}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6A6AA4F5-C274-4963-8B65-3828ED7123D6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='240' name='Sheet 2' width='240'>
+      iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAYAAAA+VemSAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAC0UlEQVR4nO3TQQ0AIBDAMMC/58MDH7KkVbDP9szMApLO7wDgnYEhzMAQZmAIMzCEGRjC
+      DAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMAND
+      mIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZg
+      CDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIM
+      DGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OY
+      gSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAI
+      MzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwM
+      YQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iB
+      IczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgz
+      MIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxh
+      BoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMwhBkYwgwMYQaGMANDmIEh
+      zMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEGhjADQ5iBIczAEGZgCDMw
+      hBkYwgwMYQaGMANDmIEhzMAQZmAIMzCEGRjCDAxhBoYwA0OYgSHMwBBmYAgzMIQZGMIMDGEG
+      hjADQ5iBIczAEGZgCDMwhBkYwgwMYRfMRAXcQni19AAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
