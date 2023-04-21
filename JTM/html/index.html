@@ -49,6 +49,19 @@ map.on('click', (event) => {
   const feature = features[0];
 
   // Code from the next step will go here.
+  map.on('load', () => {
+  /* Add the data to your map as a layer */
+  map.addLayer({
+    buildLocationList(stores);
+    id: 'locations',
+    type: 'circle',
+    /* Add a GeoJSON source containing place coordinates and information. */
+    source: {
+      type: 'geojson',
+      data: stores
+    }
+  });
+});
 
   /* 
     Create a popup, specify its options 
