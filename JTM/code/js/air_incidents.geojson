@@ -1,0 +1,1083 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.617778,
+                    25.063333
+                ]
+            },
+            "properties": {
+                "date": "2015-02-04",
+                "Airline": "Transasia",
+                "flight no": "GE235",
+                "origin": "TSA",
+                "destination": "KHN",
+                "ac type": "ATR 72-600",
+                "route codes": "TSA-KHN",
+                "total aboard": "58",
+                "total fatalities": "43",
+                "ground registration": "B-22816"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.038889,
+                    44.28
+                ]
+            },
+            "properties": {
+                "date": "2015-03-24",
+                "Airline": "Germanwings",
+                "flight no": "4U9525",
+                "origin": "BCN",
+                "destination": "DUS",
+                "ac type": "Airbus A320-211",
+                "route codes": "BCN-DUS",
+                "total aboard": "150",
+                "total fatalities": "150",
+                "ground registration": "D-AIPX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.630556,
+                    3.52578
+                ]
+            },
+            "properties": {
+                "date": "2015-06-30",
+                "Airline": "Sumatra Indonesian Air Force Civilian Transport",
+                "flight no": "A1310",
+                "origin": "MLG",
+                "destination": "TNJ",
+                "ac type": "C-130B",
+                "route codes": "MLG-TNJ",
+                "total aboard": "122",
+                "total fatalities": "139",
+                "ground registration": "A-1310"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.498056,
+                    -4.824444
+                ]
+            },
+            "properties": {
+                "date": "2015-08-16",
+                "Airline": "Trigana Air Service",
+                "flight no": "IL267",
+                "origin": "DJJ",
+                "destination": "OKL",
+                "ac type": "ATR 42-300",
+                "route codes": "DJJ-OKL",
+                "total aboard": "54",
+                "total fatalities": "54",
+                "ground registration": "PK-YRN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.8,
+                    13.883333
+                ]
+            },
+            "properties": {
+                "date": "2015-09-05",
+                "Airline": "Senegalair",
+                "flight no": "C271",
+                "origin": "DKR",
+                "destination": "SSG",
+                "ac type": "Hawker Siddeley HS-125",
+                "route codes": "DKR-SSG",
+                "total aboard": "7",
+                "total fatalities": "7",
+                "ground registration": "6V-AIM"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.172778,
+                    30.169167
+                ]
+            },
+            "properties": {
+                "date": "2015-10-31",
+                "Airline": "Metrojet",
+                "flight no": "7K9268",
+                "origin": "SSH",
+                "destination": "LED",
+                "ac type": "Airbus A321-231",
+                "route codes": "SSH-LED",
+                "total aboard": "224",
+                "total fatalities": "224",
+                "ground registration": "EI-ETJ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.9,
+                    67.716667
+                ]
+            },
+            "properties": {
+                "date": "2016-01-08",
+                "Airline": "West Air Sweden",
+                "flight no": "PT294",
+                "origin": "OSL",
+                "destination": "TOS",
+                "ac type": "Canadair CRJ-200",
+                "route codes": "OSL-TOS",
+                "total aboard": "2",
+                "total fatalities": "2",
+                "ground registration": "SE-DUX"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45.341944,
+                    2.039167
+                ]
+            },
+            "properties": {
+                "date": "2016-02-02",
+                "Airline": "Daallo Airlines",
+                "flight no": "D9159",
+                "origin": "MGQ",
+                "destination": "AII",
+                "ac type": "Airbus A321-111",
+                "route codes": "MGQ-AII",
+                "total aboard": "72",
+                "total fatalities": "1",
+                "ground registration": "SX-BHS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.1,
+                    28.9
+                ]
+            },
+            "properties": {
+                "date": "2016-02-24",
+                "Airline": "Tara Air",
+                "flight no": "TB193",
+                "origin": "PKR",
+                "destination": "JMO",
+                "ac type": "de Havilland DHC-6 Twin Otter 400",
+                "route codes": "PKR-JMO",
+                "total aboard": "23",
+                "total fatalities": "23",
+                "ground registration": "9N-AHH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    91.963889,
+                    21.451944
+                ]
+            },
+            "properties": {
+                "date": "2016-03-09",
+                "Airline": "True Aviation Ltd.",
+                "flight no": "AN21",
+                "origin": "CXB",
+                "destination": "IXZ",
+                "ac type": "Antonov An-26",
+                "route codes": "CXB-IXZ",
+                "total aboard": "4",
+                "total fatalities": "3",
+                "ground registration": "S2-AGZ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.828833,
+                    47.265
+                ]
+            },
+            "properties": {
+                "date": "2016-03-19",
+                "Airline": "Flydubai",
+                "flight no": "FZ981",
+                "origin": "DXB",
+                "destination": "ROV",
+                "ac type": "Boeing 737-8KN (WL)",
+                "route codes": "DXB-ROV",
+                "total aboard": "62",
+                "total fatalities": "62",
+                "ground registration": "A6-FDN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.096944,
+                    60.452222
+                ]
+            },
+            "properties": {
+                "date": "2016-04-29",
+                "Airline": "CHC Helikopter Service",
+                "flight no": "HKS241",
+                "origin": "BGO",
+                "destination": "BGO",
+                "ac type": "Eurocopter EC225LP Super Puma M2+",
+                "route codes": "BGO-BGO",
+                "total aboard": "13",
+                "total fatalities": "13",
+                "ground registration": "LN-OJF"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.763611,
+                    34.1325
+                ]
+            },
+            "properties": {
+                "date": "2016-05-19",
+                "Airline": "Egyptair",
+                "flight no": "MS804",
+                "origin": "CDG",
+                "destination": "CAI",
+                "ac type": "Airbus A320-232",
+                "route codes": "CDG-CAI",
+                "total aboard": "66",
+                "total fatalities": "66",
+                "ground registration": "SU-GCC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2475,
+                    55.379444
+                ]
+            },
+            "properties": {
+                "date": "2016-08-05",
+                "Airline": "Emirates",
+                "flight no": "EK521",
+                "origin": "TRV",
+                "destination": "DXB",
+                "ac type": "Boeing 777-31H",
+                "route codes": "TRV-DXB",
+                "total aboard": "300",
+                "total fatalities": "0",
+                "ground registration": "A6-EMW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -161.334167,
+                    61.785556
+                ]
+            },
+            "properties": {
+                "date": "2016-08-31",
+                "Airline": "Hageland Aviation",
+                "flight no": "H63190",
+                "origin": "KWN",
+                "destination": "TOG",
+                "ac type": "Cessna 208 Grand Caravan",
+                "route codes": "KWN-TOG",
+                "total aboard": "5",
+                "total fatalities": "5",
+                "ground registration": "N752RV"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.418333,
+                    5.978611
+                ]
+            },
+            "properties": {
+                "date": "2016-11-28",
+                "Airline": "LaMia Bolivia",
+                "flight no": "LM2933",
+                "origin": "VVI",
+                "destination": "MDE",
+                "ac type": "Avro RJ-85",
+                "route codes": "VVI-MDE",
+                "total aboard": "77",
+                "total fatalities": "71",
+                "ground registration": "CP-2933"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    67.187778,
+                    24.911667
+                ]
+            },
+            "properties": {
+                "date": "2016-12-07",
+                "Airline": "Pakistan International Airlines",
+                "flight no": "PK660",
+                "origin": "CJL",
+                "destination": "ISB",
+                "ac type": "ATR-42-500",
+                "route codes": "CJL-ISB",
+                "total aboard": "48",
+                "total fatalities": "48",
+                "ground registration": "AP-BHO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -67.577778,
+                    6.187333
+                ]
+            },
+            "properties": {
+                "date": "2016-12-20",
+                "Airline": "Aerosucre Colombia",
+                "flight no": "6C157",
+                "origin": "PCR",
+                "destination": "BOG",
+                "ac type": "Boeing 727-2JOF",
+                "route codes": "PCR-BOG",
+                "total aboard": "6",
+                "total fatalities": "5",
+                "ground registration": "HK-4544"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.437222,
+                    43.057222
+                ]
+            },
+            "properties": {
+                "date": "2017-01-16",
+                "Airline": "Turkish Airlines",
+                "flight no": "TK6491",
+                "origin": "HKG",
+                "destination": "FRU",
+                "ac type": "Boeing 747-412F",
+                "route codes": "HKG-FRU",
+                "total aboard": "4",
+                "total fatalities": "4",
+                "ground registration": "TC-MCL"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.593056,
+                    38.375833
+                ]
+            },
+            "properties": {
+                "date": "2017-05-05",
+                "Airline": "Air Cargo Carriers",
+                "flight no": "2Q1260",
+                "origin": "SDF",
+                "destination": "CRW",
+                "ac type": "Shorts 300-200",
+                "route codes": "SDF-CRW",
+                "total aboard": "2",
+                "total fatalities": "2",
+                "ground registration": "N334AC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.72646,
+                    27.68526
+                ]
+            },
+            "properties": {
+                "date": "2017-05-27",
+                "Airline": "Summit Air",
+                "flight no": "SMA409",
+                "origin": "KTM",
+                "destination": "LUA",
+                "ac type": "Let L-410UVP-E20",
+                "route codes": "KTM-LUA",
+                "total aboard": "3",
+                "total fatalities": "2",
+                "ground registration": "9N-AKY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.2019,
+                    59.3368
+                ]
+            },
+            "properties": {
+                "date": "2017-12-13",
+                "Airline": "West Wind Aviation",
+                "flight no": "WEW282",
+                "origin": "ZFD",
+                "destination": "YSK",
+                "ac type": "ATR42-320",
+                "route codes": "ZFD-YSK",
+                "total aboard": "25",
+                "total fatalities": "1",
+                "ground registration": "C-GWEA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.303615,
+                    9.901425
+                ]
+            },
+            "properties": {
+                "date": "2017-12-31",
+                "Airline": "Nature Air",
+                "flight no": "5C9916",
+                "origin": "PBP",
+                "destination": "SJO",
+                "ac type": "Cessna 208B Grand Caravan",
+                "route codes": "PBP-SJO",
+                "total aboard": "12",
+                "total fatalities": "12",
+                "ground registration": "TI-BEI"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.390278,
+                    55.299722
+                ]
+            },
+            "properties": {
+                "date": "2018-02-11",
+                "Airline": "Saratov Airlines",
+                "flight no": "6W703",
+                "origin": "DME",
+                "destination": "OSW",
+                "ac type": "Antonov AN-148-100",
+                "route codes": "DME-OSW",
+                "total aboard": "71",
+                "total fatalities": "71",
+                "ground registration": "RA-61704"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.433333,
+                    30.95
+                ]
+            },
+            "properties": {
+                "date": "2018-02-18",
+                "Airline": "Iran Aseman Airlines",
+                "flight no": "EP3704",
+                "origin": "THR",
+                "destination": "YES",
+                "ac type": "ATR 72-212",
+                "route codes": "THR-YES",
+                "total aboard": "66",
+                "total fatalities": "66",
+                "ground registration": "EP-ATS"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.358897,
+                    27.692581
+                ]
+            },
+            "properties": {
+                "date": "2018-03-12",
+                "Airline": "US-Bangla Airlines",
+                "flight no": "BS211",
+                "origin": "DAC",
+                "destination": "KTM",
+                "ac type": "de Havilland Canada DHC-8-402Q Dash 8",
+                "route codes": "DAC-KTM",
+                "total aboard": "71",
+                "total fatalities": "51",
+                "ground registration": "S2-AGU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.163611,
+                    39.952778
+                ]
+            },
+            "properties": {
+                "date": "2018-04-17",
+                "Airline": "Southwest Airlines",
+                "flight no": "WN1380",
+                "origin": "LGA",
+                "destination": "DAL",
+                "ac type": "Boeing 737-7H4",
+                "route codes": "LGA-DAL",
+                "total aboard": "149",
+                "total fatalities": "1",
+                "ground registration": "N722SW"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.391111,
+                    22.991389
+                ]
+            },
+            "properties": {
+                "date": "2018-05-18",
+                "Airline": "Cubana (leased from Global Air)",
+                "flight no": "CU972",
+                "origin": "HAV",
+                "destination": "HOG",
+                "ac type": "Boeing 737-201",
+                "route codes": "HAV-HOG",
+                "total aboard": "113",
+                "total fatalities": "112",
+                "ground registration": "XA-UHZ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.836072,
+                    7.453486
+                ]
+            },
+            "properties": {
+                "date": "2018-09-28",
+                "Airline": "Air Niugini",
+                "flight no": "PX73",
+                "origin": "PNI",
+                "destination": "POM",
+                "ac type": "Boeing 737-8BK",
+                "route codes": "PNI-POM",
+                "total aboard": "47",
+                "total fatalities": "1",
+                "ground registration": "P2-PXE"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.121111,
+                    -5.770833
+                ]
+            },
+            "properties": {
+                "date": "2018-10-29",
+                "Airline": "Lion Air",
+                "flight no": "JT610",
+                "origin": "CGK",
+                "destination": "PGK",
+                "ac type": "Boeing 737-MAX 8",
+                "route codes": "CGK-PGK",
+                "total aboard": "189",
+                "total fatalities": "189",
+                "ground registration": "PK-LQP"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.24575,
+                    6.506972
+                ]
+            },
+            "properties": {
+                "date": "2018-11-06",
+                "Airline": "Fly Jamaica Airways",
+                "flight no": "OJ256",
+                "origin": "GEO",
+                "destination": "YYZ",
+                "ac type": "Boeing 757-N23",
+                "route codes": "GEO-YYZ",
+                "total aboard": "128",
+                "total fatalities": "1",
+                "ground registration": "N524AT"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.714722,
+                    29.763889
+                ]
+            },
+            "properties": {
+                "date": "2019-02-23",
+                "Airline": "Atlas Air serving Amazon",
+                "flight no": "5Y3591",
+                "origin": "MIA",
+                "destination": "IAH",
+                "ac type": "Boeing 767-375ER",
+                "route codes": "MIA-IAH",
+                "total aboard": "3",
+                "total fatalities": "3",
+                "ground registration": "N1217A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.983333,
+                    8.75
+                ]
+            },
+            "properties": {
+                "date": "2019-03-10",
+                "Airline": "Ethiopian Airlines",
+                "flight no": "ET302",
+                "origin": "ADD",
+                "destination": "NBO",
+                "ac type": "Boeing 737 Max 8",
+                "route codes": "ADD-NBO",
+                "total aboard": "157",
+                "total fatalities": "157",
+                "ground registration": "ET-AVJ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.401944,
+                    55.968333
+                ]
+            },
+            "properties": {
+                "date": "2019-05-05",
+                "Airline": "Aeroflot Russian International Airlines",
+                "flight no": "SU1492",
+                "origin": "SVO",
+                "destination": "MMK",
+                "ac type": "Sukhoi Superjet-100-95B",
+                "route codes": "SVO-MMK",
+                "total aboard": "78",
+                "total fatalities": "41",
+                "ground registration": "RA-89098"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.956111,
+                    49.8125
+                ]
+            },
+            "properties": {
+                "date": "2019-10-04",
+                "Airline": "Ukraine Air Alliance",
+                "flight no": "UKL4050",
+                "origin": "VGO",
+                "destination": "IST",
+                "ac type": "Antonov An-12BK",
+                "route codes": "VGO-IST",
+                "total aboard": "8",
+                "total fatalities": "5",
+                "ground registration": "UR-CAH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.071389,
+                    43.365278
+                ]
+            },
+            "properties": {
+                "date": "2019-12-27",
+                "Airline": "Bek Air",
+                "flight no": "Z92100",
+                "origin": "ALA",
+                "destination": "NQZ",
+                "ac type": "Fokker 100",
+                "route codes": "ALA-NQZ",
+                "total aboard": "98",
+                "total fatalities": "12",
+                "ground registration": "UP-F100"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.103889,
+                    35.561111
+                ]
+            },
+            "properties": {
+                "date": "2020-01-08",
+                "Airline": "Ukraine International Airlines",
+                "flight no": "PS752",
+                "origin": "IKA",
+                "destination": "KBP",
+                "ac type": "Boeing 737-8KV WL",
+                "route codes": "IKA-KBP",
+                "total aboard": "176",
+                "total fatalities": "176",
+                "ground registration": "UR-PSR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.309167,
+                    40.898333
+                ]
+            },
+            "properties": {
+                "date": "2020-02-05",
+                "Airline": "Pegasus Airlines",
+                "flight no": "PC2193",
+                "origin": "ADB",
+                "destination": "SAW",
+                "ac type": "Boeing 737-86J",
+                "route codes": "ADB-SAW",
+                "total aboard": "177",
+                "total fatalities": "3",
+                "ground registration": "TC-IZK"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    67.187778,
+                    24.911667
+                ]
+            },
+            "properties": {
+                "date": "2020-05-22",
+                "Airline": "Pakistan International Airline",
+                "flight no": "PK8303",
+                "origin": "LHE",
+                "destination": "KHI",
+                "ac type": "Airbus A320-214",
+                "route codes": "LHE-KHI",
+                "total aboard": "99",
+                "total fatalities": "97",
+                "ground registration": "AP-BLD"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.970278,
+                    11.133056
+                ]
+            },
+            "properties": {
+                "date": "2020-08-07",
+                "Airline": "Air India Exppress",
+                "flight no": "IX1344",
+                "origin": "DXB",
+                "destination": "CCJ",
+                "ac type": "Boeing 737-8HG",
+                "route codes": "DXB-CCJ",
+                "total aboard": "190",
+                "total fatalities": "20",
+                "ground registration": "VT-AXH"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.574444,
+                    -5.963889
+                ]
+            },
+            "properties": {
+                "date": "2021-01-09",
+                "Airline": "Sriwijaya Air",
+                "flight no": "SJ182",
+                "origin": "CGK",
+                "destination": "PNK",
+                "ac type": "Boeing 737-524",
+                "route codes": "CGK-PNK",
+                "total aboard": "62",
+                "total fatalities": "62",
+                "ground registration": "PK-CLC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    159.846667,
+                    59.108056
+                ]
+            },
+            "properties": {
+                "date": "2021-07-06",
+                "Airline": "Kamchatka Air Enterprise",
+                "flight no": "PTK251",
+                "origin": "PKC",
+                "destination": "NONE",
+                "ac type": "Antonov An 26B-100",
+                "route codes": "UHPP-UHPL",
+                "total aboard": "28",
+                "total fatalities": "28",
+                "ground registration": "RA-26085"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.53474,
+                    56.25123
+                ]
+            },
+            "properties": {
+                "date": "2021-09-12",
+                "Airline": "Aeroservice/SiLA",
+                "flight no": "HZ51",
+                "origin": "IKT",
+                "destination": "KJA",
+                "ac type": "Let L-410UVP-E20",
+                "route codes": "IKT-KJA",
+                "total aboard": "16",
+                "total fatalities": "4",
+                "ground registration": "RA-67042"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.111944,
+                    23.324167
+                ]
+            },
+            "properties": {
+                "date": "2022-03-22",
+                "Airline": "China Eastern Airlines",
+                "flight no": "MU5735",
+                "origin": "KMG",
+                "destination": "CAN",
+                "ac type": "Boeing 737-89P WL",
+                "route codes": "KMG-CAN",
+                "total aboard": "132",
+                "total fatalities": "132",
+                "ground registration": "B-1791"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.8188,
+                    28.9598
+                ]
+            },
+            "properties": {
+                "date": "2022-05-29",
+                "Airline": "Tara Air",
+                "flight no": "TB197",
+                "origin": "PKR",
+                "destination": "JMO",
+                "ac type": "de Havilland Canada DHC-6 Twin Otter 300",
+                "route codes": "PKR-JMO",
+                "total aboard": "22",
+                "total fatalities": "22",
+                "ground registration": "9N-AET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.2,
+                    40.966667
+                ]
+            },
+            "properties": {
+                "date": "2022-07-16",
+                "Airline": "Meridian",
+                "flight no": "MRM3032",
+                "origin": "INI",
+                "destination": "DAC",
+                "ac type": "Antonov AN-12",
+                "route codes": "INI-DAC",
+                "total aboard": "8",
+                "total fatalities": "8",
+                "ground registration": "UR-CIC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.825833,
+                    -1.335278
+                ]
+            },
+            "properties": {
+                "date": "2022-11-06",
+                "Airline": "Precision Air",
+                "flight no": "PW494",
+                "origin": "DAR",
+                "destination": "BKZ",
+                "ac type": "ATR 42-500",
+                "route codes": "DAR-BKZ",
+                "total aboard": "43",
+                "total fatalities": "19",
+                "ground registration": "5H-PWF"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.114444,
+                    -12.021944
+                ]
+            },
+            "properties": {
+                "date": "2022-11-18",
+                "Airline": "LATAM Peru",
+                "flight no": "LP2213",
+                "origin": "LIM",
+                "destination": "JUL",
+                "ac type": "Airbus 320-271N",
+                "route codes": "LIM-JUL",
+                "total aboard": "108",
+                "total fatalities": "0",
+                "ground registration": "CC-BHB"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.014893,
+                    28.18969
+                ]
+            },
+            "properties": {
+                "date": "2023-01-15",
+                "Airline": "Yeti Airlines",
+                "flight no": "YT691",
+                "origin": "KTM",
+                "destination": "PKR",
+                "ac type": "ATR 72-500-72-212-A",
+                "route codes": "KTM-PKR",
+                "total aboard": "72",
+                "total fatalities": "72",
+                "ground registration": "9NANC"
+            }
+        }
+    ]
+}
