@@ -12,3 +12,16 @@
 .mapboxgl-popup-content-wrapper {
   padding: 1%;
 }
+.listings {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+.listings .item {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.listings .item:last-child { border-bottom: none; }
